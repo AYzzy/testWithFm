@@ -7,7 +7,7 @@ public class TaxCalculatorTest{
 	@Test
 	public void testCalculatorTax(){
 		TaxCalculator calculator = new TaxCalculator();
-		double tax = calculator.calculateTax(30000 );
+		double tax = calculator.calculateTax(30_000);
 		assertEquals(4500,tax);
 	}
 
