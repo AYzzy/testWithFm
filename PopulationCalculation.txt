@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class PopulationCalculation{
+
+	public static void main(String[]args){
+
+	Scanner input = new Scanner(System.in);
+
+	int growth = 0.91;
+	int population = 81_000_000_000
+	System.out.print("Year     population")
+		for (int count = 1; count <=75; count ++){
+
+			int populationCalculation =Maths.pow((1+ (growth/100)),growth);
+
+			System.out.printLn(count+"     " +populationCalculation);
+
+		}
+
+
+	}
+
+
+
+}
